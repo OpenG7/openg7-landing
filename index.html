@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>OpenG7 — Site en construction</title>
     <meta name="description" content="OpenG7 prépare quelque chose de beau. Revenez bientôt." />
-    <meta name="robots" content="noindex, nofollow" />
     <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="noindex, nofollow" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="m-0 p-0 w-screen h-screen">
+  <body class="m-0 p-0 w-screen h-screen relative">
+    <!-- Image plein écran -->
     <img 
       src="assets/site-en-construction.png" 
       alt="OpenG7 — Site en construction" 
-      class="w-full h-full object-contain bg-black"
+      class="w-full h-full object-contain bg-slate-900"
     />
+
+    <!-- Lien GitHub en marge de droite -->
+    <a 
+      href="https://github.com/OpenG7" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="absolute top-1/2 right-4 -translate-y-1/2 rotate-90 origin-right
+             bg-black/60 text-white px-3 py-1 rounded-lg text-sm
+             hover:bg-black/80 transition"
+    >
+      Voir le GitHub
+    </a>
   </body>
 </html>
