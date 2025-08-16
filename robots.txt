@@ -1,0 +1,3 @@
+# à la racine du repo landing
+User-agent: *
+Disallow: /
